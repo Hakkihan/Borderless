@@ -79,9 +79,10 @@ Complex operations like text extraction or image processing can be handled async
     - **Security:** Ensure that sensitive data is handled appropriately on the client side. In a real world application, .env environment variables will of course be stored in AWS systems manager / param store.
 
 To get started:
+1) relevant .env variables will need to be configured/ added first. Can send this over.
+2) cd into the back end Express root directory. Run the usual ``npm install`` and the preferred ``npx tsx src/server.ts`` .
+3) open another terminal, cd into the front end root directory. Run ``npm install`` followed by ``npm run dev`` .
 
-1) cd into the back end Express root directory. Run the usual ``npm install`` and the preferred ``npx tsx src/server.ts`` .
-2) open another terminal, cd into the front end root directory. Run ``npm install`` followed by ``npm run dev`` .
    
 
 
