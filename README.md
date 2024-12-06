@@ -81,5 +81,6 @@ Complex operations like text extraction or image processing can be handled async
   Future Enhancements
 Add Authentication: Use JWT or OAuth for secure access. Add user specific repositories
 Optimize Database Queries: Use indexes and optimize query performance. Add users tables and add rules regarding uploads (are multiple uploads allowed, etc).
-Enhance Scalability: Migrate backend to AWS Lambda in a more microservices-way and potentially implement caching with Redis. 
+Enhance Scalability: Migrate backend to AWS Lambda in a more microservices-way and potentially implement caching with Redis.
+Testing: Add playWright tests to the frontend and some unit/integration tests for the ExpressJS. 
 
