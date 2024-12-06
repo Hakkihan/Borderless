@@ -77,7 +77,14 @@ Complex operations like text extraction or image processing can be handled async
                           mechanisms. Also use of the react-dropzone library which allows for users to upload files.
     - **Error Handling:** Implement error boundaries and provide user-friendly error messages. Tanstack query mutations handling the errors.
     - **Security:** Ensure that sensitive data is handled appropriately on the client side. In a real world application, .env environment variables will of course be stored in AWS systems manager / param store.
- 
+
+To get started:
+
+1) cd into the back end Express root directory. Run the usual ``npm install`` and the preferred ``npx tsx src/server.ts`` .
+2) open another terminal, cd into the front end root directory. Run ``npm install`` followed by ``npm run dev`` .
+   
+
+
   Future Enhancements
 Add Authentication: Use JWT or OAuth for secure access. Add user specific repositories
 Optimize Database Queries: Use indexes and optimize query performance. Add users tables and add rules regarding uploads (are multiple uploads allowed, etc).
