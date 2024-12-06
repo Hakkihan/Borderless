@@ -1,0 +1,28 @@
+# Ignore the .vscode folder
+.vscode/
+
+# Ignore node_modules for both backend and frontend
+borderlessbe/node_modules/
+borderlessfe/node_modules/
+
+# Ignore .next (Next.js build files) for the frontend
+borderlessfe/.next/
+
+# Ignore public (optional, if build artifacts are generated here)
+borderlessfe/public/
+
+# Ignore environment files
+borderlessbe/.env
+borderlessfe/.env
+
+# Ignore log files
+borderlessbe/*.log
+borderlessfe/*.log
+
+# Ignore build artifacts
+borderlessbe/dist/
+borderlessfe/dist/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
